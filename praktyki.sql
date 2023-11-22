@@ -54,7 +54,7 @@ CREATE TABLE `praktyka` (
   `id_zaklad_pracy` int(11) NOT NULL,
   `id_osoba` int(11) NOT NULL,
   `data_rozpoczecia_praktyk` date NOT NULL,
-  `data_rzakonczenia_praktyk` date NOT NULL
+  `data_zakonczenia_praktyk` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
